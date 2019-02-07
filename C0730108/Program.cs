@@ -42,8 +42,7 @@ namespace C0730108
         public bool MyMethod()
         {
             myFavouriteVariables++;
-
-              return true;
+               return true;
         }
     }
 
