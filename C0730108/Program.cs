@@ -34,10 +34,33 @@ namespace C0730108
             public bool MyMethod()
             {
                 myFavouriteVariables++;
+
                 return true;
             }
         }
+        class dog
+        {
+            public dog(string name, string breed)
+                {
+                dog_name = name;
+                dog_breed = breed;
+              }
+            public string dog_name;
+            public string dog_breed;
+                public dog next_dog;
+            public dog prev_dog;
+        }
+        class Birthday_party
+        {
+            public dog peanut;
+            public dog fifi;
+            public dog clarance;
+            public dog roy;
+            public dog head;
+            public dog tail;
+            public dog temporary;
 
+        }
     }
     }
 
